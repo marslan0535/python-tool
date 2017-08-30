@@ -25,7 +25,7 @@ def listenPort(port):
             wanted_packet=link.recv(buffer)
             if not wanted_packet:
                 break
-            print "\nour message is :" , wanted_packet
+            print "\n our message is :" , wanted_packet
 
         link.close()
         print connection_number ,"connection close"
